@@ -33,7 +33,7 @@ router.get('/random', (req, res) => {
         (Math.random() * randomEdition.strategies.length) | 0
       ];
 
-    res.status(200).send(randomStrategy);
+    res.status(200).send({ randomStrategy });
   } catch (error) {
     console.log(error);
   }
