@@ -1,0 +1,18 @@
+{
+  "name": "obliquestrategies",
+  "version": "1.0.0",
+  "description": "Oblique Strategies by Brian Eno and Peter Schimidt",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "iameddieyayaya",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
